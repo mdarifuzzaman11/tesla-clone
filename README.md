@@ -35,6 +35,9 @@ npx create-react-app tesla-clone --template redux
 ```
 sudo npm install --global yarn
 ```
+```
+yarn start
+```
 
 ## Help
 
