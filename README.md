@@ -31,7 +31,9 @@ git clone https://github.com/mdarifuzzaman11/tesla-clone
 
 ```
 npx create-react-app tesla-clone --template redux
-
+```
+```
+sudo npm install --global yarn
 ```
 
 ## Help
