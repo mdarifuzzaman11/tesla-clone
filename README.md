@@ -1,27 +1,43 @@
-
-
 # Tesla Website Clone
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mdarifuzzaman11/tesla-clone?style=for-the-badge) 
 ![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit//mdarifuzzaman11/tesla-clone/?color=green&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/mdarifuzzaman11/tesla-clone?style=for-the-badge)
 ![GitHub followers](https://img.shields.io/github/followers/mdarifuzzaman11?style=for-the-badge)
 ##
 
 ## Live Demo
 **https://teslaclonebyarif.netlify.app/**
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-1.gif"/>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-2.gif"/>
+</p>
+
+<br>
 
 ## Description
 
-I built the Tesla's Website Clone with ReactJS (Redux + Styled Components)
+I built the Tesla's Website Clone with ReactJS (Redux + Styled Components), I have also used PWA to modify the Web App and Turn into a PWA (progressive web application)
 
 ## Getting Started
 
 ### Dependencies
 
-* Nodejs
+* Nodejs (Make sure installed Nodejs **https://nodejs.org/**)
 
+## Technologies Used :rocket:
+
+- [x] [ReactJS](https://reactjs.org);
+- [x] [TypeScript](https://www.typescriptlang.org/);
+- [x] [Framer Motion](https://www.framer.com/motion/);
+- [x] [Styled Components](https://styled-components.com/).
 
 ## Installation
 
@@ -48,6 +64,7 @@ yarn start
 ```
 yarn add styled-components
 ```
+
 
 ## Help
 
