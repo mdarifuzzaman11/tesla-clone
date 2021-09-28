@@ -38,6 +38,9 @@ sudo npm install --global yarn
 ```
 yarn start
 ```
+```
+yarn add styled-components
+```
 
 ## Help
 
