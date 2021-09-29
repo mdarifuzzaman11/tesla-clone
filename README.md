@@ -1,34 +1,53 @@
 # Tesla Website Clone
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/mdarifuzzaman11/Carfax_VIN_Automations?style=for-the-badge) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/mdarifuzzaman11/tesla-clone?style=for-the-badge) 
 ![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/mdarifuzzaman11/Carfax_VIN_Automations?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/mdarifuzzaman11/tesla-clone?style=for-the-badge)
 ![GitHub followers](https://img.shields.io/github/followers/mdarifuzzaman11?style=for-the-badge)
+##
+
+## Live Demo
+**https://teslaclonebyarif.netlify.app/**
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-1.gif"/>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-2.gif"/>
+</p>
+
+<br>
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+I built the Tesla's Website Clone with ReactJS (Redux + Styled Components), I have also used PWA to modify the Web App and Turn into a PWA (progressive web application)
 
 ## Getting Started
 
 ### Dependencies
 
-* Nodejs
+* Nodejs (Make sure installed Nodejs **https://nodejs.org/**)
 
+## Technologies Used :rocket:
+
+- [x] [ReactJS](https://reactjs.org);
+- [x] [TypeScript](https://www.typescriptlang.org/);
+- [x] [Styled Components](https://styled-components.com/).
 
 ## Installation
 
-Clone the repository to a usb stick that you wish to use to inject the software in the host computer.
+Clone the repository
 
 ```bash
 git clone https://github.com/mdarifuzzaman11/tesla-clone
 ```
 
 ## After Cloning Run the following code in Terminal of the project
-
-* How to run the program
-* Step-by-step bullets
-
+#### Packages Installed during the Project
 ```
 npx create-react-app tesla-clone --template redux
 ```
@@ -38,6 +57,10 @@ sudo npm install --global yarn
 ```
 yarn start
 ```
+```
+yarn add styled-components
+```
+
 
 ## Help
 
