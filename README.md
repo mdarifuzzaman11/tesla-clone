@@ -34,9 +34,11 @@ I built the Tesla's Website Clone with ReactJS (Redux + Styled Components), I ha
 
 ## Technologies Used :rocket:
 
-- [x] [ReactJS](https://reactjs.org);
-- [x] [TypeScript](https://www.typescriptlang.org/);
-- [x] [Styled Components](https://styled-components.com/).
+- [x] [ReactJS](https://reactjs.org)
+- [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [Material Ui](https://mui.com/)
+- [x] [Styled Components](https://styled-components.com/)
+- [x] [React Reveal](https://www.react-reveal.com/)
 
 ## Installation
 
@@ -60,7 +62,21 @@ yarn start
 ```
 yarn add styled-components
 ```
+```
+// with yarn
+yarn add @mui/material @emotion/react @emotion/styled
+```
+```
+// If yarn does not work for you try with 
+npm install @mui/material @mui/styled-engine-sc styled-components
+```
+```
+npm i react-reveal
 
+//you might get an error saying react version is different if you do then use the code 
+
+npm i react-reveal --force
+```
 
 ## Help
 
