@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 function Header() {
@@ -22,7 +23,9 @@ function Header() {
                
                <a href="https://mdarifuzzaman.com">Shop </a>
                <a href="https://mdarifuzzaman.com">Tesla Account </a>
-               
+               <CustomMenu>
+
+               </CustomMenu>
 
            </RightMenu>
 
@@ -37,6 +40,7 @@ const Container = styled.div `
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     top: 0;
     left: 0;
@@ -54,14 +58,24 @@ const Menu = styled.div `
         text-decoration: uppercase;
         padding: 0 10px;
         flex-wrap: nowrap;
+        
+        //when the screen size get smaller like a phone then this part of the code will make the menu disapaer from the top
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
 `
 
 const RightMenu = styled.div ` 
-    a {
+   display: flex;
+   align-items: center;
+   a {
         font-weight: 600;
         text-decoration: uppercase;
         margin-right: 10px;
         
     }
+`
+const CustomMenu = styled(MenuIcon) `
+    cursor: pointer;
 `
