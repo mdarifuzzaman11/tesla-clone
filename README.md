@@ -36,22 +36,18 @@ I built the Tesla's Website Clone with ReactJS (Redux + Styled Components), I ha
 
 - [x] [ReactJS](https://reactjs.org);
 - [x] [TypeScript](https://www.typescriptlang.org/);
-- [x] [Framer Motion](https://www.framer.com/motion/);
 - [x] [Styled Components](https://styled-components.com/).
 
 ## Installation
 
-Clone the repository to a usb stick that you wish to use to inject the software in the host computer.
+Clone the repository
 
 ```bash
 git clone https://github.com/mdarifuzzaman11/tesla-clone
 ```
 
 ## After Cloning Run the following code in Terminal of the project
-
-* How to run the program
-* Step-by-step bullets
-
+#### Packages Installed during the Project
 ```
 npx create-react-app tesla-clone --template redux
 ```
