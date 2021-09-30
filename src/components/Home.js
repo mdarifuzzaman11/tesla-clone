@@ -60,7 +60,12 @@ function Home() {
             leftBtnText ="Shop Now"
             
          />
-
+         <Section
+            title="Accessories"
+            backgroundImg="accessories.jpg"
+            leftBtnText ="TEST NOW"
+            
+         />
 
 
         </Container>
