@@ -73,15 +73,15 @@ const LeftButton = styled.div `
     align-items: center;
     border-radius: 100px;
     opacity: 0.85;
-    text-transform: uppercase; //very usefull code to transform part of code into all uppercase
+    text-transform: uppercase; //very useful code to transform part of code into all uppercase
     font-size: 12px;
-    cursor: pointer; //this code allows the buttom to have the mouse effect when you hover over a button or link it will show the curser of the mouse
+    cursor: pointer; //this code allows the button to have the mouse effect when you hover over a button or link it will show the curser of the mouse
     margin: 8px; //this code will keep space between the Custom Order Button and Exiting Inventory
 `
 
-//having the (LeftButton) will inharate the LeftButton's css from the top 
+//having the (LeftButton) will inherit the LeftButton's css from the top 
 const RightButton = styled(LeftButton) `
-background-color: white;// this code will chnage the color of the right button
+background-color: white;// this code will change the color of the right button
 opacity: 0.65;
 color: black;
 
