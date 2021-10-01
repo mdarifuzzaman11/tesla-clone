@@ -12,7 +12,9 @@ function Section({title,description,leftBtnText, rightBtnText, backgroundImg}) {
 
             </ItemText>
             </Fade>
+
             <Button>
+                <Fade bottom> 
             <ButtonGroup>
                 <LeftButton>
                 {leftBtnText}
@@ -25,6 +27,7 @@ function Section({title,description,leftBtnText, rightBtnText, backgroundImg}) {
                 }
                 
             </ButtonGroup>
+            </Fade>
             <DownArrow src="/images/down-arrow.svg" />
            </Button>
 
@@ -35,6 +38,7 @@ function Section({title,description,leftBtnText, rightBtnText, backgroundImg}) {
 export default Section
 
 const Wrap = styled.div `
+    
     width: 100vw;
     height: 100vh;
     background: orange;
@@ -55,7 +59,7 @@ const ItemText = styled.div `
 `
 
 const ButtonGroup = styled.div `
-    display: flex; //this code will make the buttons go from left to right insted of both button being on the bottom
+    display: flex; //this code will make the buttons go from left to right instead of both button being on the bottom
     margin-bottom: 30px;
     @media (max-width:768px) {
         flex-direction: column;
