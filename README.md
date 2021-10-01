@@ -11,13 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="src\assets\img\tesla-1.gif"/>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="src\assets\img\tesla-2.gif"/>
+  <img src="public/images/banner.gif"/>
 </p>
 
 <br>
